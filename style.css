@@ -46,14 +46,20 @@ body {
   height: 300px;
 }
 
-.links {
-  width: 100%;
+nav{
+  background-color: rgb(14, 173, 120);
 
+}
+
+.links {
+  margin: auto;
+  background: transparent;
+  max-width: 1600px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: space-between;
-  background-color: rgb(14, 173, 120);
   padding: 10px 20px;
 }
 

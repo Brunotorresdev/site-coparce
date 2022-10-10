@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.container{
+.container {
   max-width: 1450px;
   margin: auto;
 }
@@ -36,8 +36,9 @@ body {
   max-width: 1440px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
   justify-content: center;
-
 }
 
 .imagem-1 {
@@ -58,6 +59,14 @@ body {
 
 .links > div {
   background-color: transparent;
+  max-width: 300px;
+}
+
+article > div {
+display: flex;
+max-width: 1440px;
+flex-wrap: wrap;
+gap: 15px;
 }
 
 .links > div > a {
@@ -73,23 +82,21 @@ body {
   border-bottom: 5px solid rgb(236, 80, 32);
 }
 
-
-
-.header-bottom{
+.header-bottom {
   display: flex;
   flex-direction: column;
-align-items: center;
-color: rgb(14, 173, 120);
-font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  color: rgb(14, 173, 120);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.titulo{
+.titulo {
   font-size: 55px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
-.sub-titulo{
+.sub-titulo {
   font-size: 30px;
   margin-bottom: 15px;
 }
@@ -99,7 +106,7 @@ font-family: Arial, Helvetica, sans-serif;
   height: 350px;
 }
 
-.paragrafo1{
+.paragrafo1 {
   margin: auto;
   max-width: 1000px;
   text-align: center;
@@ -108,7 +115,7 @@ font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 15px;
   color: rgb(14, 173, 120);
 }
-.paragrafo2{
+.paragrafo2 {
   margin: auto;
   max-width: 1000px;
   text-align: center;
@@ -118,25 +125,26 @@ font-family: Arial, Helvetica, sans-serif;
   color: rgb(14, 173, 120);
 }
 
-footer{
+footer {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+
   justify-content: space-between;
   background-color: rgb(14, 173, 120);
   padding: 30px 10px;
 }
-.social{
+.social {
   max-width: 1440px;
   width: 100%;
   margin: auto;
-display: flex;
-justify-content: space-between;
-background: transparent;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.social > a{
+.social > a {
   background-color: transparent;
   font-size: 19.5px;
   color: rgb(255, 255, 255);
@@ -149,4 +157,3 @@ background: transparent;
   color: rgb(236, 80, 32);
   border-bottom: 5px solid rgb(236, 80, 32);
 }
-

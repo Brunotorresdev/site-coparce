@@ -7,6 +7,37 @@
   color: rgb(14, 173, 120);
 }
 
+.container{
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p{
+  font-size: 20px;
+  margin: 14px 0;
+  margin-left: 10px;
+}
+
+.img-1{
+  width: 100%;
+  max-height: 450px;
+}
+
+.img-2,.img-3,.img-4,.img-5 {
+  width: 100%;
+  max-height: 600px;
+}
+
 footer {
     width: 100%;
     display: flex;
@@ -38,4 +69,10 @@ footer {
   .social > a:hover {
     color: rgb(236, 80, 32);
     border-bottom: 5px solid rgb(236, 80, 32);
+  }
+
+  @media(max-width: 480px){
+    h1{
+      font-size: 35px;
+    }
   }

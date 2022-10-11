@@ -7,6 +7,22 @@
   color: rgb(14, 173, 120);
 }
 
+h1 {
+  font-size: 55px;
+  margin: 20px 0;
+}
+.container{
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  padding-bottom: 300px;
+}
+p{
+  font-size: 25px;
+  margin: 10px 0;
+}
+
 footer {
     width: 100%;
     display: flex;

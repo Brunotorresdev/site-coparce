@@ -9,12 +9,7 @@
 
 .img-1{
   width: 100%;
-  max-height: 500px;
-}
-
-.img-2{
-  max-width: 650px;
-  width: 100%;
+  max-height: 370px;
 }
 
 h1 {
@@ -22,13 +17,15 @@ h1 {
   margin: 20px 0;
 }
 
-h3 {
-  font-size: 25px;
+h4 {
+  font-size: 20px;
+  margin: 15px 0;
 }
 
 p{
   font-size: 18px;
   margin: 10px 0;
+  margin: 15px;
 }
 
 .container{
@@ -36,6 +33,7 @@ p{
   width: 100%;
   margin: auto;
 }
+
 
 footer {
     width: 100%;

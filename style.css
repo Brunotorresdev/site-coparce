@@ -159,3 +159,21 @@ footer {
   color: rgb(236, 80, 32);
   border-bottom: 5px solid rgb(236, 80, 32);
 }
+
+@media(max-width: 480px){
+  h1{
+    font-size: 35px;
+  }
+
+  .imagem-1 {
+    width: 350px;
+  }
+
+  .container-img-segunda-sessao > img {
+    width: 350px;
+    height: 300px;
+  }
+  .paragrafo1 {
+    font-size: 35px;
+  }
+}

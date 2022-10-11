@@ -7,72 +7,15 @@
   color: rgb(14, 173, 120);
 }
 
-.header {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
 
-.imagem-header {
-  max-height: 300px;
-}
-
-.imagens-header {
-  max-width: 1440px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  justify-content: center;
-}
-
-nav {
-  background-color: rgb(14, 173, 120);
-}
-
-.links {
-  margin: auto;
-  background: transparent;
-  max-width: 1600px;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-between;
-  padding: 10px 20px;
-}
-
-.links > div {
-  background-color: transparent;
-  max-width: 300px;
-}
-
-article > div {
-  display: flex;
-  max-width: 1440px;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.links > div > a {
-  background-color: transparent;
-  font-size: 19.5px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.links > div > a:hover {
-  color: rgb(236, 80, 32);
-  border-bottom: 5px solid rgb(236, 80, 32);
-}
 
 /* estilização header  FIM */
 
 .img-1 {
-  max-width: 1440px;
+  max-width: 100%;
   width: 100%;
   margin: auto;
+  max-height: 470px;
 }
 
 h1 {
@@ -112,6 +55,7 @@ div > img {
   flex-wrap: wrap;
   gap: 10px;
   margin: 35px 0;
+  
 }
 
 footer {

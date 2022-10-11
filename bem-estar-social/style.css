@@ -7,18 +7,12 @@
   color: rgb(14, 173, 120);
 }
 
-.img-1{
-  width: 100%;
-  max-height: 500px;
-}
-
-.img-2{
-  max-width: 650px;
-  width: 100%;
+body{
+  margin-top: 150px;
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 45px;
   margin: 20px 0;
 }
 
@@ -45,6 +39,23 @@ footer {
     background-color: rgb(14, 173, 120);
     padding: 30px 10px;
   }
+.img-1{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+}
+
+.img-2{
+  max-width: 600px;
+  width: 100%;
+}
+
+.img-3{
+  max-width: 935px;
+  width: 100%;
+}
+
   .social {
     max-width: 1440px;
     width: 100%;
@@ -68,4 +79,10 @@ footer {
   .social > a:hover {
     color: rgb(236, 80, 32);
     border-bottom: 5px solid rgb(236, 80, 32);
+  }
+
+  @media(max-width: 480px){
+    h1{
+      font-size: 35px;
+    }
   }
